@@ -41,6 +41,7 @@ console.log(reserved_slots);
 });
 
 router.post("/createuser", async (req, res) => {
+  //const customer_id=customer_ids.length+1;
   const customer_name = req.body.username;
   const customer_address = req.body.address;
 

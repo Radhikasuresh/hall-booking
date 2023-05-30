@@ -2,24 +2,24 @@ const booking_ids = [
   {
     booking_id: "011",
     hall_id: 1,
-    booked_at: ["start time", "end time"],
+    booked_at: ["12:00 PM", "10:00 PM"],
     customer_id: "id",
   },
   {
     booking_id: "012",
     hall_id: 2,
-    booked_at: ["start time", "end time"],
+    booked_at: ["10:00 AM", "11:00 PM"],
     customer_id: "id",
   },
   {
     booking_id: "013",
     hall_id: 3,
-    booked_at: ["start time", "end time"],
+    booked_at: ["2:00 PM", "10:00 PM"],
     customer_id: "id",
   },
 ];
 
-const customer_ids = [
+const cc = [
   {
     customer_id: 1,
     customer_name: "name",
