@@ -1,22 +1,22 @@
 const booking_ids = [
-  // {
-  //   booking_id: "",
-  //   hall_id: 1,
-  //   booked_at: ["start time", "end time"],
-  //   customer_id: "id",
-  // },
-  // {
-  //   booking_id: "",
-  //   hall_id: 2,
-  //   booked_at: ["start time", "end time"],
-  //   customer_id: "id",
-  // },
-  // {
-  //   booking_id: "",
-  //   hall_id: 3,
-  //   booked_at: ["start time", "end time"],
-  //   customer_id: "id",
-  // },
+  {
+    booking_id: "",
+    hall_id: 1,
+    booked_at: ["start time", "end time"],
+    customer_id: "id",
+  },
+  {
+    booking_id: "",
+    hall_id: 2,
+    booked_at: ["start time", "end time"],
+    customer_id: "id",
+  },
+  {
+    booking_id: "",
+    hall_id: 3,
+    booked_at: ["start time", "end time"],
+    customer_id: "id",
+  },
 ];
 
 const customer_ids = [
@@ -131,18 +131,18 @@ setInterval(() => {
    }, 60000 * 30);
 
 const booking_history = [
-  // {
-  //   customer_id: "id",
-  //   booked_lists: [
-  //     {
-  //       hall_id: "id",
-  //       booking_id: "booking_id",
-  //       booking_status: "",
-  //       start_time: "start time",
-  //       end_time: "end time",
-  //     },
-  //       ],
-  // },
+  {
+    customer_id: "id",
+    booked_lists: [
+      {
+        hall_id: "id",
+        booking_id: "booking_id",
+        booking_status: "",
+        start_time: "start time",
+        end_time: "end time",
+      },
+        ],
+  },
 ];
 
 module.exports = {

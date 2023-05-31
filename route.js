@@ -140,7 +140,7 @@ router.delete("/:username/cancelroom/:booking_id", async (req, res) => {
   const booking = await booking_ids.find((booked) => booked.booking_id == booking_id);
   if (user && booking){
     booking_ids.splice(booking.booking_id, 1);
-    res.status(200).send("hall canceled successfully");
+    res.status(200).send("hall cancelled successfully");
     return
   }
   else{
